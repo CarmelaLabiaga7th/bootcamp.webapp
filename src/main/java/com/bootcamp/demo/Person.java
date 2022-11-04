@@ -3,6 +3,7 @@ package com.bootcamp.demo;
 public class Person {
     private String firstName;
     private String lastName;
+    private String address;
     
     public Person() {
         
@@ -24,6 +25,11 @@ public class Person {
         this.lastName = lastName;
     }
     
-    
-
+    public setAddress(String address){
+        this.address = address;
+    }
+   
+    public String getAddress(){
+        return address
+        }
 }
